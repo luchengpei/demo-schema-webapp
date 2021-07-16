@@ -1,0 +1,1 @@
+<block wx:if="{{error}}"><view class="data-v-57280228">{{error.message}}</view></block><block wx:else><block wx:if="{{loading}}"><view class="data-v-57280228">正在加载。。。</view></block></block><block wx:if="{{data._id}}"><view class="list data-v-57280228"></view></block><view class="operate-btn data-v-57280228"><button type="default" class="data-v-57280228">新增</button></view>
